@@ -1,0 +1,36 @@
+# Gradle & Fabric cache files
+.gradle/
+build/
+run/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs & crash reports
+*.log
+logs/
+crash-reports/
+
+# Minecraft specific
+*.jar
+*.jar.backup
+*.jar.backup.*
+*.tmp
+*.bak
+
+# Other
+out/
