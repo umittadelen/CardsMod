@@ -7,8 +7,12 @@ import com.umittadelen.cards.CardsMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.text.Text;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
@@ -85,13 +89,31 @@ public class ModItems {
         return Items.register(registerKey, factory, setting);
     }
 
+    public static void registerItemGroup() {
+        Registry.register(
+            Registries.ITEM_GROUP,
+            UNO_CARDS_GROUP,
+            net.minecraft.item.ItemGroup.create(
+                ItemGroup.Row.TOP, // or BOTTOM, as you wish
+                0 // position in the row
+            )
+            .displayName(Text.translatable("itemGroup.cards-mod.uno_cards_group"))
+            .icon(() -> new ItemStack(UNO_CARDS[0])) // choose an icon
+            .build()
+        );
+    }
+
     private static void UnoCards(FabricItemGroupEntries entries) {
         for (Item item : UNO_CARDS) {
             entries.add(item);
         }
     }
 
+    // new ItemGroup for uno cards
+    public static final RegistryKey<ItemGroup> UNO_CARDS_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(CardsMod.MOD_ID, "uno_cards_group"));
+
     public static void registerModItems(){
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::UnoCards);
+        registerItemGroup();
+        ItemGroupEvents.modifyEntriesEvent(UNO_CARDS_GROUP).register(ModItems::UnoCards);
     }
 }

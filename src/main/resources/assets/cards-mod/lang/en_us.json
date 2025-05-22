@@ -53,5 +53,6 @@
     "item.cards-mod.uno_yellow_wx2": "uno yellow draw 2",
     "item.cards-mod.uno_wild": "uno wild",
     "item.cards-mod.uno_wild_color": "uno wild color",
-    "item.cards-mod.uno_wild_x4": "uno wild draw 4"
+    "item.cards-mod.uno_wild_x4": "uno wild draw 4",
+    "itemGroup.cards-mod.uno_cards_group": "UNO"
 }
