@@ -7,10 +7,7 @@ Play with a full set of cards, trade, and invent your own games with friends.
 
 ## ✨ Features
 
-- 50+ unique Uno cards, including:
-  - Blue, Green, Red, and Yellow number cards
-  - Reverse, Block, and Draw Two cards
-  - Wild and Wild Draw Four cards
+- Uno cards, ...
 - All cards are craftable and collectible
 - Dedicated creative tab for easy access
 - Designed for multiplayer fun
