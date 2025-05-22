@@ -54,7 +54,7 @@ This mod is licensed under the [MIT License](LICENSE).
 
 ## 💬 Feedback & Support
 
-- [GitHub Issues](https://github.com/yourusername/CardsMod/issues) for bug reports and suggestions
+- [GitHub Issues](https://github.com/umittadelen/CardsMod/issues) for bug reports and suggestions
 - [Modrinth Page](https://modrinth.com/mod/cardsmod) for updates and comments
 
 ---
