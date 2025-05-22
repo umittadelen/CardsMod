@@ -7,8 +7,7 @@ Play with a full set of cards, trade, and invent your own games with friends.
 
 ## ✨ Features
 
-- Uno cards, ...
-- All cards are craftable and collectible
+- Uno cards, playing cards, ...
 - Dedicated creative tab for easy access
 - Designed for multiplayer fun
 
