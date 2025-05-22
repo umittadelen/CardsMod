@@ -31,7 +31,7 @@ for color in colors:
             "parent": "cards-mod:item/uno_base",
             "textures": {
                 "front": f"cards-mod:item/uno/{front_textures[color]}",
-                "side": f"cards-mod:item/uno/numbers/{card}",
+                "side": f"cards-mod:item/numbers/{card}",
                 "middle": "#missing",
                 "joker": "#missing"
             }
@@ -42,7 +42,7 @@ for color in colors:
             model["textures"]["joker"] = f"cards-mod:item/uno/numbers/{card}"
             model["textures"]["middle"] = f"#missing"
         else:
-            model["textures"]["middle"] = f"cards-mod:item/uno/numbers/{card}"
+            model["textures"]["middle"] = f"cards-mod:item/numbers/{card}"
             model["textures"]["joker"] = f"#missing"
 
         # Item model

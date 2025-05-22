@@ -1,0 +1,14 @@
+{
+    "parent": "cards-mod:item/playing_cards_base",
+    "textures": {
+        "base-symbol": "cards-mod:item/playing_cards/spade",
+        "base-number": "cards-mod:item/numbers/b6",
+        "4-5-6-7-8-9-10": "cards-mod:item/playing_cards/spade",
+        "2-3": "#missing",
+        "6-7-8": "cards-mod:item/playing_cards/spade",
+        "A-3-5-9": "#missing",
+        "9-10": "#missing",
+        "7-8-10": "#missing",
+        "8-10": "#missing"
+    }
+}

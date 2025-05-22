@@ -2,8 +2,8 @@
     "parent": "cards-mod:item/uno_base",
     "textures": {
         "front": "cards-mod:item/uno/f_green",
-        "side": "cards-mod:item/uno/numbers/w7",
-        "middle": "cards-mod:item/uno/numbers/w7",
+        "side": "cards-mod:item/numbers/w7",
+        "middle": "cards-mod:item/numbers/w7",
         "joker": "#missing"
     }
 }
