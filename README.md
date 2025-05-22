@@ -23,7 +23,8 @@ Play with a full set of cards, trade, and invent your own games with friends.
 2. **Install [Fabric Loader](https://fabricmc.net/use/installer/)** and [Fabric API](https://modrinth.com/mod/fabric-api).
 3. Place the `cardsmod-x.x.x.jar` file in your `mods` folder.
 4. Launch Minecraft and enjoy!
-
+> [!IMPORTANT]
+> When installed on a server, clients must also have the mod installed.
 ---
 
 ## 🛠️ Crafting & Usage
