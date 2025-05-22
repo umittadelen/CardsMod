@@ -1,4 +1,4 @@
-# 🃏 Cards Mod
+# 🃏 Cards Mod (for Fabric)
 
 A Minecraft mod that brings the fun of card games into your world!
 Play with a full set of cards, trade, and invent your own games with friends.
