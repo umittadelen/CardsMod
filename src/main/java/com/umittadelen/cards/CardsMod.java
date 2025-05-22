@@ -2,6 +2,8 @@ package com.umittadelen.cards;
 
 import net.fabricmc.api.ModInitializer;
 
+import com.umittadelen.cards.item.ModItems;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,6 @@ public class CardsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }

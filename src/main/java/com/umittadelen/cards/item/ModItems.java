@@ -72,6 +72,7 @@ public class ModItems {
         "uno_wild_x4",
         "uno_wild"
     };
+
     public static final Item[] UNO_CARDS = new Item[UNO_CARD_NAMES.length];
     static {
         for (int i = 0; i < UNO_CARD_NAMES.length; i++) {
