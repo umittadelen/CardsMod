@@ -34,3 +34,4 @@ crash-reports/
 
 # Other
 out/
+/generate_json_models/uno

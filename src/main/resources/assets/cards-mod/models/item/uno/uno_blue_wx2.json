@@ -1,0 +1,9 @@
+{
+    "parent": "cards-mod:item/uno_base",
+    "textures": {
+        "front": "cards-mod:item/uno/f_blue",
+        "side": "cards-mod:item/uno/numbers/wx2",
+        "middle": "cards-mod:item/uno/numbers/wx2",
+        "joker": "#missing"
+    }
+}
